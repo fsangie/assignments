@@ -204,7 +204,7 @@ namespace SRSDEMO.UI
             // Semester is finished (boy, that was quick!).  Professors
             // assign grades.
 
-            sec1.PostGrade(s1, "C+");
+            sec1.PostGrade(s1, "E");
             sec1.PostGrade(s3, "A");
             sec2.PostGrade(s2, "B+");
             sec7.PostGrade(s2, "A-");
@@ -273,7 +273,7 @@ namespace SRSDEMO.UI
 
             //模拟学生第二学期选课
 
-            //将学生s1的课程c1第一学期的成绩修改为E，这代表学生s1没通过课程c1
+            //题1（1）：将学生s1的课程c1第一学期的成绩修改为E，这代表学生s1没通过课程c1
             Console.WriteLine("Student " + s1.Name +
                               " is attempting to enroll in " +
                               sec22.ToString());
@@ -284,7 +284,7 @@ namespace SRSDEMO.UI
 
             Console.WriteLine("");
 
-            //学生s3的课程c1第一学期的成绩是A，课程通过，s3可以选择课程c2
+            //题1（2）：学生s3的课程c1第一学期的成绩是A，课程通过，s3可以选择课程c2
 
             Console.WriteLine("Student " + s3.Name +
                               " is attempting to enroll in " +
